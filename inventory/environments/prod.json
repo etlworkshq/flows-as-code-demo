@@ -1,0 +1,5 @@
+{
+  "connections": {
+    "Postgres": { "template.host": "localhost", "template.database": "test" }
+  }
+}

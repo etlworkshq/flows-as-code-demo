@@ -1,0 +1,32 @@
+{
+  "connections" : "nosecrets",
+  "formatVersion" : 1,
+  "objects" : [
+    {
+      "file" : "flows/load-customers.json",
+      "name" : "Load customers",
+      "type" : "flow"
+    },
+    {
+      "file" : "flows/load-orders.json",
+      "name" : "Load orders",
+      "type" : "flow"
+    },
+    {
+      "file" : "connections/mysql.json",
+      "name" : "MySQL",
+      "type" : "connection"
+    },
+    {
+      "file" : "connections/postgres.json",
+      "name" : "Postgres",
+      "type" : "connection"
+    },
+    {
+      "file" : "schedules/nightly.json",
+      "name" : "Nightly",
+      "type" : "schedule"
+    }
+  ],
+  "project" : "inventory"
+}

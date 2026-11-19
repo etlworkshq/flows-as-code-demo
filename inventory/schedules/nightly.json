@@ -1,0 +1,45 @@
+{
+  "data" : {
+    "additionalMessage" : null,
+    "debug" : false,
+    "delayBetweenRetries" : 0,
+    "delaySchedule" : false,
+    "description" : "Loads orders every night at 2 AM.",
+    "disableAfter" : null,
+    "disableExecutionNotifications" : false,
+    "disableOnException" : false,
+    "emailFailure" : false,
+    "emailLastFailure" : false,
+    "emailMetrics" : false,
+    "emailParams" : false,
+    "emailSuccess" : false,
+    "emails" : null,
+    "enableAfter" : null,
+    "enabled" : true,
+    "expectedTime" : null,
+    "flowId" : {
+      "$ref" : {
+        "name" : "Load orders",
+        "type" : "flow"
+      }
+    },
+    "flowParameters" : [ ],
+    "force" : false,
+    "keepEmptyAudit" : false,
+    "keepMessage" : false,
+    "listener" : false,
+    "logStep" : null,
+    "noRunningFlows" : [ ],
+    "repeatExpectedTimeNotifications" : false,
+    "retries" : 0,
+    "retryExceptionExclude" : null,
+    "retryExceptionInclude" : null,
+    "schedule" : "0 2 * * *",
+    "scheduleExcludes" : [ ],
+    "scriptOnResponse" : null,
+    "stopTime" : null,
+    "tags" : [ ]
+  },
+  "name" : "Nightly",
+  "type" : "schedule"
+}

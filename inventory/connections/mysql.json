@@ -1,0 +1,43 @@
+{
+  "data" : {
+    "connectionType" : "connection.db.mysql",
+    "description" : null,
+    "expFormatId" : null,
+    "properties" : {
+      "field.connection.always.enclose.quotes" : false,
+      "field.connection.auto.commit" : false,
+      "field.connection.db.all.columns.nullable" : true,
+      "field.connection.db.calc.fieldname" : null,
+      "field.connection.db.calc.fieldname.script.language" : "JavaScript",
+      "field.connection.db.create.table.sql" : null,
+      "field.connection.db.create.table.sql.script.language" : "JavaScript",
+      "field.connection.db.current" : false,
+      "field.connection.db.defer.open" : false,
+      "field.connection.db.script.on.connector" : null,
+      "field.connection.db.script.on.connector.script.language" : "JavaScript",
+      "field.connection.fetch.size" : null,
+      "field.connection.init.sql" : null,
+      "field.connection.init.sql.script.language" : "SQL",
+      "field.connection.jdbc.ssh.host" : null,
+      "field.connection.jdbc.ssh.key.private" : null,
+      "field.connection.jdbc.ssh.passphrase" : null,
+      "field.connection.jdbc.ssh.password" : null,
+      "field.connection.jdbc.ssh.port" : null,
+      "field.connection.jdbc.ssh.username" : null,
+      "field.connection.max.field.size" : null,
+      "field.connection.max.rows" : null,
+      "field.connection.other.props" : "[{\"key\":\"rewriteBatchedStatements\",\"value\":\"true\"},{\"key\":\"zeroDateTimeBehavior\",\"value\":\"convertToNull\"}]",
+      "field.connection.password" : null,
+      "field.connection.string.field.size.multiplier" : "10",
+      "field.connection.template.database" : "inventory",
+      "field.connection.template.host" : "localhost",
+      "field.connection.template.port" : "3306",
+      "field.connection.type.mapping" : null,
+      "field.connection.url" : "jdbc:mysql://host:3306/database",
+      "field.connection.user" : "root"
+    },
+    "tags" : [ ]
+  },
+  "name" : "MySQL",
+  "type" : "connection"
+}
