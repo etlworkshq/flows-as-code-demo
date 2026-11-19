@@ -9,7 +9,8 @@ SELECT
     p.id          AS product_id,
     p.name        AS product_name,
     p.description AS product_description,
-    p.weight
+    p.weight,
+    p.weight * o.quantity AS total_weight
 FROM orders o
 JOIN customers c
   ON c.id = o.purchaser
